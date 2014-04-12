@@ -4,6 +4,7 @@
 #   Modified for Ubuntu 12.04 by Arkapravo Bhaumik, 28 March 2014
 
 # this should work on Linux with MESA
+# it is advisable to install binutils-gold, sudo apt-get install binutils-gold
 GLUTLIBS = -L/usr/X11R6/lib -lGLU -lGL -lglut -lX11 -lXext -lXmu -lXi
 GLUTFLAGS = -I/usr/local/include/GL
 
